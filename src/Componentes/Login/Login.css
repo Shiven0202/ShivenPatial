@@ -1,0 +1,519 @@
+.LoginPageBox {
+ 
+    padding-bottom: 143px;
+    margin-right: 122px;
+    margin-left: 131px;
+}
+img.Netflix {
+    width: 169px;
+    height: 101px;
+    margin-bottom: -50px;
+    margin-left: -98px;
+    background: none;
+}
+.TemplateImage {
+    margin-top: 44px;
+}   
+.Privicy {
+    color: white;
+    font-weight: 600;
+}
+.SignIn{
+    color: white;
+    font-weight: 600;
+}
+.more{
+    color: white;
+    font-weight: 600;
+}
+.LoginPageBoxInner {
+    display: flex
+;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -24px;
+    margin-bottom: -19px;
+}
+.Privacy-Extra-Navbat {
+    display: flex
+;
+    flex-direction: row;
+    gap: 26px;
+    align-items: baseline;
+    margin-top: 56px;
+}
+h2.PrivicyBar {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 275px;
+}
+h2.Sign{
+    font-size: 18px;
+    font-weight: 600;
+}
+img.SliderAddvertisment {
+    width: 1164px;
+    height: 500px;
+    border-radius: 52px;
+    filter: blur(1px);
+    border-left: 6px solid white;
+    border-top: 6px solid white;
+    border-bottom: 3px solid whitesmoke;
+    margin-left: -102px;
+}
+h1.Movies {
+    color: white;
+    position: absolute;
+    margin-top: -225px;
+    margin-left: 290px;
+    background: none;
+    letter-spacing: 1px;
+    font-size: 43px;
+    backdrop-filter: drop-shadow(30px 19px 21px black);
+    text-align: center;
+}
+p.MamberShip {
+    color: white;
+    position: absolute;
+    margin-top: -106px;
+    margin-left: 338px;
+    font-size: 21px;
+    background: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+p.Watch {
+    color: white;
+    margin-left: 242px;
+    margin-top: 16px;
+}
+input#validationCustomUsername {
+    width: 260px;
+    margin-left: 150px;
+    background: black !important;
+    padding: 11px;
+    border: 1px solid white;
+}
+button.btn.btn-secondary {
+    background: red;
+    margin-left: 20px;
+    padding: 11px;
+}
+.Requarments {
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+    margin-left: 109px;
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.RightArrow.css-1xlgn5w-MuiSvgIcon-root {
+    background: none;
+}
+
+.movie-section {
+    position: relative;
+    width: 100%;
+    overflow: hidden; /* Hides anything outside the container */
+    display: flex;
+    align-items: center;
+  }
+  
+  .movie-section-inner {
+    display: flex;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    scroll-behavior: smooth; /* Smooth scrolling */
+    gap: 10px; /* Space between images */
+    padding: 10px 0; /* Optional padding */
+    scrollbar-width: none; /* For Firefox */
+  }
+  
+  .movie-section-inner::-webkit-scrollbar {
+    display: none; /* Hides the scrollbar in WebKit browsers */
+  }
+  
+  .poster {
+    width: 150px; /* Base width */
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+    scroll-snap-align: start;
+    max-width: 100%; /* Ensure it fits the container */
+  }
+  .poster:hover {
+    transform: scale(1.05);
+    max-width: 100%; 
+  }
+  .arrow-button {
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent background */
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    border-radius: 50%; /* Rounded button */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .arrow-button.left {
+    left: 10px; /* Position left arrow */
+  }
+  
+  .arrow-button.right {
+    right: 10px; /* Position right arrow */
+  }
+  
+  .arrow-button:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover */
+  }
+  
+  svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.right.css-1umw9bq-MuiSvgIcon-root {
+    background: none;
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.left.css-1umw9bq-MuiSvgIcon-root {
+    background: none;
+}
+h1.Trending {
+    color: white;
+    font-size: 34px;
+    font-weight: 600;
+}
+.Move-Trending-Box {
+    margin-top: 66px;
+}
+.NetflixMovie{
+    width: 150px; /* Base width */
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+    scroll-snap-align: start;
+    max-width: 100%; /* Ensure it fits the container */
+}
+.NetflixMovie:hover{
+    transform: scale(1.05);
+    max-width: 100%; 
+}
+
+.movie-section-01,
+.movie-section-02 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.movie-section-inner {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 10px;
+  padding: 10px 0;
+  scrollbar-width: none; /* For Firefox */
+}
+
+.movie-section-inner::-webkit-scrollbar {
+  display: none; /* For WebKit browsers */
+}
+
+.poster,
+.NetflixMovie {
+  width: 150px; /* Base width */
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  scroll-snap-align: start;
+}
+
+.arrow-button {
+  background-color: rgba(0, 0, 0, 0.5); /* Optional styling */
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-button.left {
+  left: 10px;
+}
+
+.arrow-button.right {
+  right: 10px;
+}
+
+.arrow-icon {
+  font-size: 30px; /* Adjust as needed */
+}
+
+
+
+.Reasion-one {
+ 
+  border-radius: 18px;
+  background: #3e3b3b;
+  margin-top: 22px;
+  color: white;
+  margin-right: -57px;
+  padding-left: 26px;
+  padding-right: 18px;
+  text-align: justify;
+  /* background: gray; */
+}
+.ReasonBoxc {
+  display: flex;
+  gap: 81px;
+  margin-top: 31px;
+
+}
+p.add {
+  background-color: #3e3b3b;
+  margin-top: 16px;
+  margin-left: 18px;
+  text-align: justify;
+  margin-right: 11px;
+}
+h1.More-Reason {
+  color: white;
+  font-size: 33px;
+  margin: 6px;
+  margin-top: 53px;
+  margin-bottom: -32px;
+}
+p.hand {
+  color: red;
+  text-align: end;
+  background-color: #3e3b3b;
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-1xlgn5w-MuiSvgIcon-root {
+  background-color: #3e3b3b;
+}
+
+h1.NetflixQ {
+  font-size: 29px;
+  margin-block: 36px;
+  color: white;
+  margin-left: -403px;
+}
+.QutionsBox {
+  
+  padding-bottom: 20px;
+  background: #3e3b3b;
+  margin-top: 10px;
+}
+p.qutions {
+  background: none;
+  color: white;
+  margin-top: 14px;
+  margin-left: 15px;
+  font-weight: 600;
+}
+.QutionsBox:hover {
+  background: gray;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+p.qutions:hover{
+  background: none;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+p.ans {
+  background: none;
+  color: white;
+  text-align: left;
+  font-weight: 600;
+}
+.Ans {
+  background: dimgray;
+  margin-top: 6px;
+  overflow: hidden;
+}
+.StartButton {
+  margin-top: -22px;
+}
+
+.QutionsBox {
+  padding-bottom: 20px;
+  background: #3e3b3b;
+  margin-top: 10px;
+  display: flex
+;
+  /* gap: 510px; */
+  justify-content: space-between;
+}
+span.icon {
+  background: none;
+  font-size: 36px;
+  color: white;
+  margin-right: 53px;
+}
+
+.NetflixQutions {
+  width: 99%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+  margin-right: 278px;
+}
+
+.NetflixQ {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.QutionsBox {
+  background-color: #333;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: contents;
+  flex-direction: column;
+}
+
+.QutionsBox:hover {
+  background-color: #444;
+  transform: scale(1.02);
+}
+
+
+.QutionHeader {
+  display: flex
+;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 11px;
+  margin-left: -116px;
+  margin-right: -309px;
+  background: #3e3b3b;
+  border-radius: 15px;
+  padding-bottom: 13px;
+  transition: all 0.3s ease;
+}
+
+.qutions {
+  font-size: 18px;
+  font-weight: 500;
+  color: #e5e5e5;
+  margin: 0;
+}
+
+.icon {
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: rotate(90deg);
+}
+
+.Ans {
+  margin-top: 6px;
+  font-size: 19px;
+  color: #3e3b3b;
+  line-height: 1.5;
+  border-radius: 10px;
+  margin-left: -113px;
+  margin-right: -307px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ans {
+  margin: 0;
+}
+
+
+.GetStartButton {
+  text-align: center;
+  margin-top: 27px;
+}
+button.btn.btn-danger {
+  background: darkred;
+  font-weight: 600;
+  width: 162px;
+}
+p.Create-Membership {
+  color: white;
+}
+
+.HelpCenter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; 
+  justify-content: center; 
+  padding: 20px;
+}
+
+.Fq {
+  font-size: 14px; 
+  color: #8e8e8e; 
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px; 
+  transition: all 0.3s ease;
+  white-space: nowrap; 
+}
+
+.Fq:hover {
+ 
+ 
+  cursor: pointer; 
+  text-decoration: underline;
+}
+
+.Fq:focus {
+  outline: none; 
+}
+
+@media (max-width: 768px) {
+  .HelpCenter {
+    justify-content: flex-start; 
+    padding: 10px;
+  }
+
+  .Fq {
+    font-size: 12px; 
+    padding: 6px 10px; 
+  }
+}
+
+
+
+.Call{
+  font-size: 14px; 
+  color: #8e8e8e;
+  
+  padding: 8px 12px;
+  border-radius: 4px; 
+  transition: all 0.3s ease;
+  white-space: nowrap; 
+  text-decoration: underline;
+}
+
+
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.arrow-icon.css-1umw9bq-MuiSvgIcon-root {
+  background: none;
+}
